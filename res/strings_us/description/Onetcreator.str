@@ -1,0 +1,27 @@
+STRINGTABLE Onetcreator {
+    Onetcreator "NetCreator";
+    
+    NETCREATOR_MODE "Mode";
+    NETCREATOR_MODE_A "Self connection";
+    NETCREATOR_MODE_B "A-B Connection";
+    NETCREATOR_OBJECTA "Object_A";
+    NETCREATOR_VERTEXMAPA "VertexMap_A";
+    NETCREATOR_OBJECTB "Object_B";
+    NETCREATOR_VERTEXMAPB "VertexMap_B";
+    
+    ID_DISTANCE "Distance";
+    NETCREATOR_SPACE "Relative Space";
+    NETCREATOR_SPACE_LOCAL "Local Space";
+    NETCREATOR_SPACE_GLOBAL "Global Space";
+    NETCREATOR_MINDISTANCE "Min Distance";
+    NETCREATOR_MAXDISTANCE "Max Distance";
+    NETCREATOR_VISIBILITY "Visibility";
+    NETCREATOR_SEED "Seed";
+    
+    ID_PROPAGATION "Propagation";
+    NETCREATOR_PROPAGATION_ENABLE "Enable";
+    NETCREATOR_PROPAGATION_SPEED "Speed";
+    NETCREATOR_PROPAGATION_TURBULENCE "Turbulence";
+    NETCREATOR_PROPAGATION_STRENGTH "Strength";
+    NETCREATOR_PROPAGATION_SIZE "Size";
+}
