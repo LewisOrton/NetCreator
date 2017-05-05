@@ -49,20 +49,22 @@ CONTAINER Onetcreator
             }
             ANIM OFF;
         }
-        LONG NETCREATOR_MINDISTANCE {
+        REAL NETCREATOR_MINDISTANCE {
+            UNIT REAL;
+            STEP 0.001;
             MIN 0;
-            MAX 1000;
             MINSLIDER 0;
             MAXSLIDER 1000;
-            CUSTOMGUI LONGSLIDER;
+            CUSTOMGUI REALSLIDER;
         }
-        LONG NETCREATOR_MAXDISTANCE {
+        REAL NETCREATOR_MAXDISTANCE {
+            UNIT REAL;
+            STEP 0.001;
             MIN 0;
-            MAX 1000;
             DEFAULT 100;
             MINSLIDER 0;
-            MAXSLIDER 1000;
-            CUSTOMGUI LONGSLIDER;
+            MAXSLIDER 10000;
+            CUSTOMGUI REALSLIDER;
         }
         REAL NETCREATOR_VISIBILITY {
             UNIT PERCENT;
